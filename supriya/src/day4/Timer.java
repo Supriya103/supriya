@@ -1,13 +1,7 @@
 package day4;
 
 public class Timer {
-          // public static void main(String[] args) throws InterruptedException {
-			//while(true) {
-				//System.out.println("Remainder to do your next task..");
-			//	Thread.sleep(60L*60*1000);
-			//}
-		//}
-	
+          
 	public static void main(String[] args) {
 		String []tasks= {
 				"Finish homework",
@@ -24,7 +18,7 @@ public class Timer {
 				a="am";
 			}
 			System.out.println("Now the time is : "+times[i]+""+a);
-			System.out.println("So the task is :"+tasks[i]);
+			System.out.println("Next the task is :"+tasks[i]);
 			System.out.println();
 		}
 	}
